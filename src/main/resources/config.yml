@@ -1,0 +1,26 @@
+competition:
+  teleport-phase-duration: 60
+  competition-duration: 120
+  eggtp-cooldown: 20
+
+egg-spawn:
+  min-distance-from-spawn: 500
+  max-distance-from-spawn: 5000
+
+messages:
+  prefix: "&5&l[Pinky Lifesteal] &r"
+  dragon-defeated: "&6&lThe Ender Dragon has been defeated for the first time!"
+  egg-spawned: "&e&lThe Dragon Egg has spawned in the Overworld at &b%x% %y% %z%&e!"
+  egg-picked-up: "&d&l%player% &ehas picked up the Dragon Egg! The hunt begins!"
+  teleport-phase-start: "&aPlayers can now use &b/eggtp &ato teleport to the egg holder for &6%time% seconds&a!"
+  teleport-phase-end: "&cThe teleport phase has ended! No more /eggtp allowed."
+  competition-winner: "&6&l★ &d&l%player% &6&lhas won the Dragon Egg Competition! &6&l★"
+  competition-no-winner: "&cThe competition has ended but no one was holding the Dragon Egg!"
+  eggtp-cooldown: "&cYou must wait &e%time% seconds &cbefore using /eggtp again!"
+  eggtp-success: "&aTeleporting to &d%player%&a..."
+  eggtp-no-holder: "&cNo one is currently holding the dragon egg!"
+  eggtp-phase-inactive: "&cThe teleport phase is not active!"
+  eggtp-self: "&cYou cannot teleport to yourself!"
+  no-competition: "&cThere is no active dragon egg competition!"
+  egg-holder-offline: "&c%player% has disconnected with the Dragon Egg!"
+  egg-holder-online: "&a%player% has reconnected with the Dragon Egg!"

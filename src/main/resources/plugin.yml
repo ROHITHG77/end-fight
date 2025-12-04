@@ -1,0 +1,24 @@
+name: EndFight
+version: 1.0.0
+main: org.rgxprime.endfight.EndFightPlugin
+api-version: '1.21'
+author: RgX
+description: Custom End Fight plugin for Pinky Lifesteal
+
+commands:
+  eggtp:
+    description: Teleport to the player holding the dragon egg
+    usage: /eggtp
+    permission: endfight.eggtp
+  endfight:
+    description: Admin commands for EndFight plugin
+    usage: /endfight <reload|status|reset|help>
+    permission: endfight.admin
+
+permissions:
+  endfight.eggtp:
+    description: Allows teleporting to the egg holder
+    default: true
+  endfight.admin:
+    description: Admin commands for EndFight
+    default: op
